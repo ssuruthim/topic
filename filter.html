@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/filter.css">
+</head>
+<body>
+    <h1>FILTER PROPERTY</h1>
+   <p> The filter property defines visual effects (like blur and saturation) to an element</p>
+   <img id="myimg" src="firefox-logo.svg" width="300" height="300" >
+   <p><b>BLUR:</b>blur the image,The radius of the blur, specified as a length.</p>
+   <p><b>BRIGHTNESS:</b>The brightness() CSS function applies a linear multiplier to the input image, making it appear brighter or darker.
+The brightness of the result, specified as a number or a percentage.
+     A value under 100% darkens the image,
+      while a value over 100% brightens it.
+       A value of 0% will create an image that is completely black,
+        while a value of 100% leaves the input unchanged. The initial value for interpolation is 1.</p>
+        <p>brightness(0%)   Completely black </p>
+            <P>brightness(0.4)   40% brightness </P>
+          <P>  brightness(1)    No effect </P>
+          <p>  brightness(200%)  Double brightness </p>
+<p><b>CONTRAST:</b>The contrast of the result, specified as a number or a percentage. A value under 100% decreases the contrast, while a value over 100% increases it. A value of 0% will create an image that is completely gray, while a value of 100% leaves the input unchanged.</p>
+<p><b>DROP-SHADOW()</b>drop-shadow(16px 16px 10px black)</
+<div>16 px is a x axiz in horizantal </div>
+<div>16 px is a y axiz in vertical </div>
+<div>10 px is a blur radius  </div>
+<div>black is a color</div>
+</p>
+<p><b>GRAYSCALE:</b>grayscale(0)      No effect 
+    grayscale(.7)     70% grayscale 
+    grayscale(100%)   Completely grayscale </p>
+    <P><b>HUE-ROTATE:</b>Applies a hue rotation on the image. The value defines the number of degrees around the color circle the image samples will be adjusted. 0deg is default, and represents the original image.(-90deg)  Same as 270deg rotation */
+        hue-rotate(0deg)     No effect 
+        hue-rotate(90deg)    90deg rotation 
+        hue-rotate(.5turn)   180deg rotation
+        hue-rotate(405deg)   Same as 45deg rotation </P>
+        <p><b>INVERT:</b>invert(0)  :    No effect 
+            invert(.6):    60% inversion 
+            invert(100%):   Completely inverted </p>
+
+<P><b>OPACITY:</b>Sets the opacity level for the image. The opacity-level describes the transparency-level, where:
+
+    0% is completely transparent.
+    100% (1) is default and represents the original image (no transparency).</P>
+
+<P><b>SATURATE:</b>The amount of the conversion, specified as a number or a percentage. A value under 100% desaturates the image, while a value over 100% super-saturates it. A value of 0% is completely unsaturated(image is hown in gray color), while a value of 100% leaves the input unchanged. The initial value for interpolation is 1.
+
+</P>
+<P><b>SEPHIA:</b>The amount of the conversion, specified as a number or a percentage. A value of 100% is completely sepia, while a value of 0% leaves the input unchanged. Values between 0% and 100% are linear multipliers on the effect. The initial value for interpolation is 0.
+    sepia(0)      No effect 
+    sepia(.65)    65% sepia 
+    sepia(100%)  Completely sepia </P>
+    </body>
+</html>

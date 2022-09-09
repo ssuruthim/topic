@@ -1,0 +1,23 @@
+#myimg
+{
+    filter: blur(5px);
+    /* filter: blur(1.17rem);  (0% is black,100% and 1 orginal image) */
+    /* filter:brightness(30%);   (0% is black,100% and 1 orginal image)  */
+
+    /* filter:contrast(300%);     (0% is black,100% and 1 orginal image)  */
+    /* filter: grayscale(100%);     (0% is orginal image,100% is gray) */
+    /* filter:drop-shadow(16px 16px 10px blue);     */
+     /* filter:   hue-rotate(90deg);    (0% is orginal image)   */
+     /* filter:invert(100%);    (0% is orginal image) */
+ /* filter:opacity(0);                    0% is completely transparent. */
+/* 100% (1) is default and represents the original image (no transparency). */
+ /* filter:saturate(100%); 0% (0) will make the image completely un-saturated. */
+/* 100% is default and represents the original image. */
+/* Values over 100% provides super-saturated results. */
+ /* filter:sepia(65%);    0% (0) is default and represents the original image. */ 
+/* 100% will make the image completely sepia. */
+/* filter:url(resources.svg#c1); */ 
+
+
+
+}
